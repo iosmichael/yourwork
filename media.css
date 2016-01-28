@@ -1,0 +1,120 @@
+
+
+@media only screen and (min-width : 480px) and(max-width: 767px) {
+	
+	.background-image{
+		display: none;
+	}
+	.background-image-small img{
+		display: block;
+		width: 80%;
+		margin-left: 10%;
+		position: absolute;
+		bottom: 0px;
+		z-index: -10;
+	}
+	.post-stick .title{
+		font-size: 20;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.minimize{
+		display: none;
+	}
+	.detail-title h1{
+		font-size: 25;
+	}
+	.detail-description{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.paragraph{
+		width: 100%;
+	}
+	.paragraph p{
+		font-size: 16;
+	}
+	.background{
+		display: none;
+	}
+	.who-we-are-content{
+		background-color: 2257A2;
+	}
+	.where-we-are-going{
+		background-color: F75858;
+	}
+	.our-plan{
+		background-color: 757575;
+	}
+	.number{
+		width: 30px;
+		font-size: 18;
+	}
+	.plans-group{
+		display: none;
+	}
+	.plans-group-small{
+		display: block;
+	}
+	.plans-group-small p{
+		color: white;
+	}
+	.plans-group-small .steps{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.plans-group-small-inner{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.steps{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.steps-section img{
+		display: none;
+	}
+	.steps-section p{
+		margin-top: 5px;
+		font-size: 18;
+	}
+	#paragraph-left{
+		float: none;
+	}
+
+	.panel-left{
+		width: 100%;
+	}
+
+	/*small*/
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    /* phones */
+    .detail-description p{
+    	font-size: 17;
+    }
+    .detail-title h1{
+    	font-size: 25;
+    }
+    .steps-section p{
+    	font-size: 17;
+    }
+    .panel-left{
+		width: 100%;
+	}
+}
+@media only screen and (min-width : 992px) and(max-width: 1200px) {
+	.detail-description p{
+    	font-size: 20;
+    }
+    .steps-section p{
+    	font-size: 20;
+    }
+}
+
+
+
+
+
+
+
