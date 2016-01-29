@@ -67,6 +67,9 @@
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
+	.plans-group-small-inner .steps-section p{
+		font-size: 14;
+	}
 	.steps{
 		width: 80%;
 		margin-left: 10%;
@@ -102,6 +105,10 @@
     .panel-left{
 		width: 100%;
 	}
+	.plans-group .plan p{
+		font-size: 18;
+	}
+
 }
 @media only screen and (min-width : 992px) and(max-width: 1200px) {
 	.detail-description p{
